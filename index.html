@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav>
-        <h1 class="nav">Profile</h1>
+        <p class="nav">Profile</p>
         <div class="nav-bar">
             <h4>Home</h4>
             <h4>My Profile</h4>
@@ -21,39 +21,131 @@
         </div>
     </nav>
 
-    <div id="main">
+    <div class="body">
         <main>
-            <div id="profile">
-                <div id="blueBox"></div>
-                <div id="profile-col">
-                    <img id="profile-pic" src="./profile-professional.jpg" alt="peter">
-                    <h1 id="name">Peter Liu</h1>
-                    <div id="profile-location">
-                        <img id="map-marker" src="./map-marker.png" alt="map-marker">
-                        <h3 id="profile-city">Seattle</h3>
+
+            <div class="profile">
+                <div class="blueBox"></div>
+                <div class="profile-col">
+                    <img class="profile-pic" src="./profile-professional.jpg" alt="peter">
+                    <h1 class="name">Peter Liu</h1>
+                    <div class="profile-location">
+                        <img class="map-marker" src="./map-marker.png" alt="map-marker">
+                        <h3 class="profile-city">Seattle</h3>
                     </div>
-                    <div id="profile-desc">
+                    <div class="profile-desc">
                         <p>Developer | Engineer | Problem Solver</p>
                         <p>Master of shadows and the Internet!</p>
                     </div>
-                    <div id="profile-edit">
-                        <img id="gear" src="./gear.png" alt="gear">
-                        <a id="edit-profile" href="#">Edit profile</a>
+                    <div class="profile-edit">
+                        <img class="gear" src="./gear.png" alt="gear">
+                        <a class="edit-profile" href="#">Edit profile</a>
                     </div>
                 </div>
             </div>
 
 
-            <div id="education"></div>
+            <div class="education">
+                <div class="blackBox">
+                    <h2 class="education-title">Education</h2>
+                </div>
+                <div class="education-1">
+                    <h2>Coding-Dojo - Full Stack Bootcamp</h2>
+                    <br>
+                    <p style="color: rgb(151, 150, 150);">Jul 2021 - Oct 2021</p>
+                    <br>
+                    <p>Triple black belt in Python, MERN, and C#.</p>
+                </div>
+            </div>
         </main>
-
-
-
-
         <aside>
 
+            <div class="friend-request-container">
+
+                <div class="blackBox">
+                    <div class="num-of-request">2</div>
+                    <p class="friend-request-text">Connection Request</p>
+                </div>
+                
+                
+                <div class="friend-requests">
+                    
+                    <div class="friend-request1">
+                        <div class="friend1-icon-name">
+                            <img class="Anne" src="./images/anne-s.jpg" alt="Anne">
+                            <p style="font-size: 15px; margin: auto 15px;">Anne S</p>
+                        </div>
+                        <div class="yes-no">
+                            <img class="yes-icon" src="./icons/accept-circle.png" alt="yes-icon">
+                            <img class="no-icon" src="./icons/close-circle.png" alt="no-icon">
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="friend-request2">
+                        <div class="friend1-icon-name">
+                            <img class="Jane" src="./images//jane-m.jpg" alt="Jane">
+                            <p style="font-size: 15px; margin: auto 15px;">Jane M</p>
+                        </div>
+                        <div class="yes-no">
+                            <img class="yes-icon" src="./icons/accept-circle.png" alt="yes-icon">
+                            <img class="no-icon" src="./icons/close-circle.png" alt="no-icon">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+            
+            <div class="connection-container">
+                <div class="blackBox">
+                    <div class="num-of-connection">500+</div>
+                    <p class="friend-request-text">Your Connections</p>
+                </div>
+                <div class="friend-requests">
+                    
+                    <div class="friend-request1">
+                        <div class="friend1-icon-name">
+                            <img class="Anne" src="./images/adrien-s.jpg" alt="Anne">
+                            <p style="font-size: 15px; margin: auto 15px;">Adrien S</p>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="friend-request2">
+                        <div class="friend1-icon-name">
+                            <img class="Jane" src="./images/arry-s.jpg" alt="Jane">
+                            <p style="font-size: 15px; margin: auto 15px;">Arry S</p>
+                        </div>
+                    </div>
+                    
+                    <div class="friend-request2">
+                        <div class="friend1-icon-name">
+                            <img class="Jane" src="./images/phil-s.jpg" alt="Jane">
+                            <p style="font-size: 15px; margin: auto 15px;">Phil S</p>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="friend-request2">
+                        <div class="friend1-icon-name">
+                            <img class="Jane" src="./images/todd-s.jpg" alt="Jane">
+                            <p style="font-size: 15px; margin: auto 15px;">Todd S</p>
+                        </div>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <a class="view-more-link" href="#">View More</a>
+                    
+                </div>
+            </div>
+            
         </aside>  
     </div>
-
+    
 </body>
 </html>

@@ -14,11 +14,16 @@ nav {
 
 .nav-bar {
     display: flex;
-    flex-basis: 50%;
+    width: 350px;
     justify-content: flex-start;
     align-items: center;
-    flex: 2;
 }
+
+.nav-bar h4 {
+    font-size: 1.2em;
+
+}
+
 
 h4 {
     font-size:small;
@@ -26,10 +31,12 @@ h4 {
     vertical-align: middle;
 }
 
-h1.nav {
+p.nav {
     flex-basis: 25%;
     text-align: right;
     align-self: center;
+    font-weight: bold;
+    font-size: 2em;
     
 }
 
@@ -43,15 +50,28 @@ button {
     background-color: dodgerblue;
     color: white;
     height: 25px;
-    width: 40%;
+    width: 70px;
     border: none;
 }
 
 /* main */
-main {
-    width: 65%;
+.body {
+    width: 900px;
     height: 1000px;
-    background-color: blanchedalmond;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+aside {
+    width: 300px;
+    height: 1000px;
+}
+
+main {
+    width: 600px;
+    height: 1000px;
+    background-color:white;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -59,43 +79,166 @@ main {
     padding-right: 20px;
 }
 
-#profile {
+.profile {
     width: 80%;
     height: 350px;
-    background-color: salmon;
+    background-color: white;
+    border: 3px solid slategrey;
     margin: 30px 0;
 }
-#education {
+.education {
     width: 80%;
     height: 400px;
-    background-color: pink;
+    border: 3px solid slategrey;
 }
 
-#blueBox {
+.education-title {
+    color: white;
+}
+
+.blackBox {
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blueBox {
     height: 100px;
     width: 100%;
-    background-color: blue;
+    background-color: #17a2b8;
 }
 
-#profile-col {
+.profile-col {
+    height: 250px;
     display: flex;
     flex-direction: column;
     flex: 0 1 auto;
+    position: relative;
+    top: -45px;
+    margin-left: 35px;
+    justify-content: space-around;
 }
 
+.num-of-request {
+    box-sizing: border-box;
+    color: white;
+    background-color: gray;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    padding-top: 2px;
+    margin-right: 5px;
+    text-align: center;
+}
 
+.friend-request-text {
+    color: white;
+    margin-top: 2px;
+}
 
-#profile-pic {
+.profile-pic {
     height: 80px;
-    width: 100px;
-
+    width: 120px;
+    border-radius: 90px;
+    
 }
 
-#map-marker, #gear {
+.gear {
     height: 20px;
     width: 20px;
 }
 
-#profile-location, #profile-edit {
+.map-marker {
+    height: 20px;
+    width: 15px;
+}
+
+.profile-city {
+    margin-left: 15px;
+}
+.edit-profile {
+    margin-left: 10px;
+}
+
+.profile-location, .profile-edit {
     display: flex;
+}
+
+.education-1 {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.friend-request-container {
+    margin-top: 30px;
+    width: 75%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 3px solid slategray;
+}
+.connection-container {
+    margin-top: 40px;
+    width: 75%;
+    height: 320px;
+    box-sizing: border-box;
+    border: 3px solid slategray;
+}
+
+.friend-request1 {
+    display: flex;
+    height: 35px;
+    margin-top: 20px;
+}
+.friend-request2 {
+    display: flex;
+    height: 35px;
+    margin-top: 15px;
+}
+.friend1-icon-name {
+    width: 150px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.yes-no {
+    display: flex;
+    width: 80px;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.yes-icon, .no-icon {
+    height: 25px;
+    margin: auto 3px;
+}
+
+.Anne, .Jane {
+    border-radius: 17.5px;
+    margin-left: 10px;
+}
+
+.num-of-connection {
+    box-sizing: border-box;
+    color: white;
+    background-color: gray;
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+    padding-top: 2px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.friend-request-text {
+    color: white;
+    margin-top: 2px;
+}
+
+.view-more-link {
+    margin-left: 20px;
+    font-family: monospace;
 }
