@@ -209,6 +209,7 @@ main {
     width: 80px;
     justify-content: flex-start;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .yes-icon, .no-icon {
